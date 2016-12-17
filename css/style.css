@@ -180,7 +180,7 @@ nav a:hover {
 
 #rebelborder {
     margin-top: 5em;
-    width: 65%;
+    width: 68%;
     border-bottom: 10px solid #F26822;
 }
 
@@ -464,6 +464,10 @@ img {
         font-size: 90%;
     }
     
+    p {
+        width: 90%;
+    }
+    
     header h1 {
         font-size: 3em;
         line-height: 1.3em;
@@ -493,7 +497,7 @@ img {
     }
     
     #principles {
-    width: 60%;
+        width: 65%;
     }
     
     #umbrellapenguin {
