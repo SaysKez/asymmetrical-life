@@ -160,7 +160,7 @@ nav ul {
 
 nav ul li { 
     display: inline;
-    margin: 20px;
+    margin: 12px;
 }
 
 nav a:hover {
@@ -197,7 +197,6 @@ nav a:hover {
 }
 
 #principles {
-    width: 75%;
     max-width: 700px;
     margin: 1em auto 1em auto;
     border-left: 10px solid #F26822;
@@ -337,8 +336,7 @@ img {
 
 #rebelexamples li {
     display: inline-block;
-    margin-left: .2em;
-    margin-right: .2em;
+    margin: 1em 1em 1em 0;
 }
 
 
@@ -413,4 +411,108 @@ img {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* tablet */
+@media (max-width: 50em) {
+    
+    /*general*/
+    
+    p {
+        width: 80%;
+    }
+    
+    /* specific */
+    
+    header h3 {
+        display: none;
+    }
+    
+    header h1 {
+        font-size: 4em;
+    }
+    
+    #rebelborder {
+        width: 80%;
+    }
+    
+    #conclusion {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+
+
+/* mobile */
+
+@media (max-width: 35em) {
+    
+    /* general */
+    
+    body {
+        margin: auto 0;
+        width: 100%;
+        font-size: 115%;
+    }
+   
+    table {
+        font-size: 90%;
+    }
+    
+    header h1 {
+        font-size: 3em;
+        line-height: 1.3em;
+    }
+    
+    h2 {
+        font-size: 2.25em;
+    }
+    
+    blockquote {
+        font-size: 1.2em;
+        margin-left: 1em;
+    }
+    
+    cite {
+        margin-left: 0;
+    }
+        
+        /* specific */
+    
+    header h3 {
+        display: none;
+    }
+    
+    #rebelborder {
+        width: 80%;
+    }
+    
+    #principles {
+    width: 60%;
+    }
+    
+    #umbrellapenguin {
+        display: none;
+    }
+    
+    #conclusion {
+        border-left: none;
+        border-right: none;
+    }
+    
+    .social img {
+        max-width: 80%;
+        margin: 0;
+    }
+    
+    .social ul {
+        width: 100%;
+    }
+    
+    
 }
