@@ -1,4 +1,6 @@
 # asymmetrical-life
 Jan Tschichold essay
 
-[The HTML](http://SaysKez.github.io/asymmetrical-life/index.html)
+[The Markdown](http://SaysKez.github.io/asymmetrical-life/essay.md)
+
+[The Webpage](http://SaysKez.github.io/asymmetrical-life/index.html)
