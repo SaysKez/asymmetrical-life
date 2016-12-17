@@ -1,0 +1,416 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* styling */
+
+body {
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    margin: auto;
+    background-color: #FEFAEE;
+    color: #1B1A17;
+}
+
+
+p, blockquote {
+    width: 75%;
+    max-width: 700px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    font-family: Lato, 'Gill Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.375em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    letter-spacing: 0.02em;
+}
+
+p {
+    font-size: 120%;
+    line-height: 1.5em;
+}
+
+li {
+    font-size: 120%;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    font-size: 150%;
+    padding: 1em;
+}
+
+blockquote p {
+    font-style: bold italic;
+    border-left: 10px solid #F26822;
+    padding-left: 1em;
+    margin-bottom: .4em;
+}
+
+cite {
+    font-size: 75%;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+.caption {
+    font-size: 90%;
+    font-style: italic;
+    border-top: 5px solid #F26822;
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.indent {
+    text-indent: 1.5em;
+}
+
+
+/* Header */
+
+header h1 {
+    font-size: 5.036em;
+    margin: auto;
+    max-width: 700px;
+    padding-bottom: .4em;
+    padding-top: .3em;
+    letter-spacing: 0.04em;
+}
+
+header h3 {
+    font-size: 2.25em;
+    color: #F26822;
+    margin-top: 3.5em;
+    letter-spacing: 0.08em;
+}
+
+#essayleft {
+    float: left;
+    transform: rotate(270deg)
+}
+
+#essayright {
+    float: right;
+    transform: rotate(90deg)
+}
+
+.tschichold-logo {
+    background: #F26822;
+    background-size: 100%;
+}
+
+.tschichold-logo img {
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+
+/* NAV */
+
+#tschichold {
+    border-radius: 50%;
+    border: 1px groove #1B1A17;
+    max-width: 8%;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #1B1A17;
+    text-decoration: none;
+}
+
+nav { 
+    padding: 1em 0;
+    margin-bottom: 4em;
+    background: #F26822;
+}
+
+nav ul {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: .75em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li { 
+    display: inline;
+    margin: 20px;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #FEFAEE;
+}
+
+
+/* Introduction */
+
+#intro {
+    font-size: 110%;
+    font-size: 1.1em;
+}
+
+/* Young Rebel */
+
+#rebelborder {
+    margin-top: 5em;
+    width: 65%;
+    border-bottom: 10px solid #F26822;
+}
+
+#rebel {
+    margin-top: 0;
+}
+
+
+/* manifesto list */
+
+#umbrellapenguin {
+    float: right;
+    max-width: 30%;
+}
+
+#principles {
+    width: 75%;
+    max-width: 700px;
+    margin: 1em auto 1em auto;
+    border-left: 10px solid #F26822;
+    list-style: none;
+    padding: 1em;
+    width: 40%;
+}
+
+#principles li {
+    font-style: oblique;
+}
+
+
+/* The Penguin Years */
+
+.background {
+    width: 100%;
+    margin-top: -10em;
+    margin-bottom: -3.5em;
+}
+
+#penguin {
+    border-top: 10px solid #F26822;
+    border-bottom: 10px solid #F26822;
+    padding: .5em 0 .5em 0;
+}
+
+.penguinwave img {
+    max-width: 10%;
+}
+
+#covers {
+    width: 60%;
+    margin: 1 auto;
+}
+
+
+/* Change of Heart or Style? */
+
+#change {
+    margin-top: 1.4em;
+}
+
+#line1 {
+    border-top: 10px solid #F26822;
+}
+
+#line2 {
+    border-bottom: 10px solid #F26822;
+}
+
+#runpenguin {
+    max-width: 15%;
+}
+
+#penrose {
+    width: 60%;
+    margin: 1 auto;
+}
+
+/* Master and Servant */
+
+#penguintrophy {
+    width: 15%;
+    margin-top: 4em;
+    margin-bottom: -.5em;
+}
+
+#conclusion {
+    border-left: 10em solid #F26822;
+    border-right: 10em solid #FEFAEE;
+}
+
+.outro {
+    font-size: 130%;
+}
+
+#final {
+    margin-top: 1em;
+}
+
+.dot {
+    letter-spacing: 0.1em;
+}
+
+
+/* images */
+
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%
+}
+
+
+/* bibliography */
+
+#bibliography {
+    margin: 0 auto 1em auto;
+}
+
+#bookpenguin {
+    max-width: 15%;
+}
+
+.bibliography {
+    background: #F26822;
+    font-size: 90%;
+    padding: 1em;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.bibliography table {
+    width: 75%;
+    max-width: 700px;
+    margin: auto;
+    list-style: none;
+}
+
+.bibliography td {
+    padding: .5em;
+}
+
+
+/* IMAGE LISTS THAT SHOULD ACTUALLY CENTRE */
+
+#rebelexamples {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+
+#rebelexamples li {
+    display: inline-block;
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+
+#evolution {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+
+#evolution li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+
+/* Social Icons */
+
+.social a {
+    opacity: 0.3;
+}
+
+.social a:hover {
+    opacity: 0.8;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+
+.social li {
+    display: inline-block;
+    color: #444;
+}
+
+.social li img {
+    width: 50px;
+}
+
+.social {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    margin: auto;
+}
+
+.social img {
+    width: 20%;
+    align-items: center;
+    display: block;
+    float: left;
+    margin: 1em 1em 1em 0
+}
+
+.social ul {
+    width: 75%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+/* Link Penguin */
+
+
+#homepenguin {
+    margin-top: -.5em;
+    width: 5%;
+}
+
+#top a:hover img {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
