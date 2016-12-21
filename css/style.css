@@ -139,6 +139,8 @@ header h3 {
 a {
     color: #1B1A17;
     text-decoration: none;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
 }
 
 nav { 
@@ -354,14 +356,14 @@ img {
 
 /* Social Icons */
 
-.social a {
+.social a img {
     opacity: 0.3;
-}
-
-.social a:hover {
-    opacity: 0.8;
     -webkit-transition: opacity .25s ease-in-out;
     transition: opacity .25s ease-in-out;
+}
+
+.social a:hover img {
+    opacity: 0.8;
 }
 
 .social li {
@@ -404,16 +406,15 @@ img {
     width: 5%;
 }
 
-#top a:hover img {
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
+#scale a img {
+    -webkit-transition: scale 0.3s ease-in-out;
+    transition: scale 0.3s ease-in-out;
 }
 
-
+#scale a:hover img {   
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
 
 /* MEDIA QUERIES */
 
@@ -502,6 +503,11 @@ img {
     
     #umbrellapenguin {
         display: none;
+    }
+    
+    #line1 {
+        border-top: none;
+        border-bottom: 10px solid #F26822;
     }
     
     #conclusion {
