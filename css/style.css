@@ -507,11 +507,6 @@ img {
         display: none;
     }
     
-    #line1 {
-        border-top: none;
-        border-bottom: 10px solid #F26822;
-    }
-    
     #conclusion {
         border-left: none;
         border-right: none;
